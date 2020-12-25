@@ -1,0 +1,63 @@
+.header {
+  position: sticky;
+  top:0;
+  background-color: white;
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid lightgray;
+  padding-top: 10px;
+  padding-bottom:5px ;
+  width: 100%;
+}
+
+.header-left {
+  margin-top: 5px;
+  display: flex;
+}
+.header-left .brand-logo{
+  display: flex;
+}
+.header-left .brand-logo > h4 {
+ color: darkgrey;
+ font-size: 10px;
+ margin-left: -8px;
+ font-weight: 400;
+ user-select: none;
+ margin-right: 10px;
+}
+
+
+
+.header-left img {
+  object-fit: contain;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.search {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+  border-radius: 5px;
+  background-color: #eef3f8;
+}
+
+.search .search-icon {
+  fill: rgb(110, 110, 110);
+}
+.search input[type="text"] {
+  outline: none;
+  appearance: none;
+  border: none;
+  background: none;
+  width: 100%;
+}
+.search input[type="text"]::placeholder{
+  color: rgb(110, 110, 110);
+}
+
+.header-right{
+  display: flex;
+}
